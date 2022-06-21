@@ -1,4 +1,4 @@
-module React.Virtuoso (virtuosoWithData, virtuosoWithCount) where
+module React.Virtuoso (virtuosoImpl, virtuosoWithData, virtuosoWithCount) where
 
 import Data.Function.Uncurried (Fn2)
 import Data.Unit (Unit)
