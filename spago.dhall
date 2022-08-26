@@ -14,9 +14,13 @@ to generate this file without the comments in this block.
 , dependencies =
   [ "effect"
   , "functions"
+  , "maybe"
   , "prelude"
   , "react-basic"
   , "react-basic-dom"
+  , "react-basic-hooks"
+  , "unsafe-coerce"
+  , "web-html"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
