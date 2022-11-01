@@ -11,12 +11,18 @@ When creating a new Spago project, you can use
 to generate this file without the comments in this block.
 -}
 { name = "react-virtuoso"
+, license = "MIT"
+, repository = "https://github.com/rowtype-yoga/purescript-react-virtuoso.git"
 , dependencies =
   [ "effect"
   , "functions"
+  , "maybe"
   , "prelude"
   , "react-basic"
   , "react-basic-dom"
+  , "react-basic-hooks"
+  , "unsafe-coerce"
+  , "web-html"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
