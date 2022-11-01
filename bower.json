@@ -1,0 +1,27 @@
+{
+    "name": "purescript-react-virtuoso",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rowtype-yoga/purescript-react-virtuoso.git"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "purescript-effect": "^v4.0.0",
+        "purescript-functions": "^v6.0.0",
+        "purescript-maybe": "^v6.0.0",
+        "purescript-prelude": "^v6.0.1",
+        "purescript-react-basic": "^v17.0.0",
+        "purescript-react-basic-dom": "https://github.com/lumihq/purescript-react-basic-dom.git#v6.0.0",
+        "purescript-react-basic-hooks": "^v8.1.2",
+        "purescript-unsafe-coerce": "^v6.0.0",
+        "purescript-web-html": "^v4.1.0"
+    }
+}
